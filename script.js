@@ -12,4 +12,5 @@ $(document).ready(() => {
   $.get('post_form.php' + $('form').serialize());
   $.post('post_form.php', $('form').serialize());
 });
+
 })
